@@ -34,7 +34,7 @@ export RTE_TARGET=x86_64-native-linuxapp-gcc
 Usage
 =============
 ```
-# git clone https://github.com/alandtsang/mydpdkdns.git
+# git clone https://github.com/kfc19001/mydpdkdns.git
 # cd mydpdkdns/tools
 ```
 
