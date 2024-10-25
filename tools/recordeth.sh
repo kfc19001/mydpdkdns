@@ -12,7 +12,7 @@ record_eth() {
     gateway=`route -n | awk '/UG/{print $2}'`
 
     basepath=$(cd `dirname $0`; pwd)
-    nicinfo="$basepath/ethinfo
+    nicinfo="$basepath/ethinfo"
     rm -f $nicinfo
 
     if [ -z "$ipaddr" -o -z "$netmask" -o -z "$mac" -o -z "$gateway" ]; then
